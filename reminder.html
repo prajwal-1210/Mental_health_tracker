@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Reminder</title>
+</head>
+<body>
+    <h1>Hello, {{ username }}!</h1>
+    <p>This is your daily reminder to track your emotions and update your mood journal.</p>
+    <p>Visit your profile page to get started: <a href="{{ url_for('profile', _external=True) }}">Track Emotions</a></p>
+</body>
+</html>
